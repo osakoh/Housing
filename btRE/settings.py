@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'whitenoise.runserver_nostatic',  # Django’s static file handling and allow WhiteNoise to take over
+    'whitenoise.runserver_nostatic',  # Django’s static file handling and allow WhiteNoise to take over
 
     'django.contrib.admin',
     'django.contrib.auth',
